@@ -1,0 +1,622 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>BB Shop - Каталог</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo-hell.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+        <div id="preloader">
+            <div class="tg-cube-grid">
+                <div class="tg-cube tg-cube1"></div>
+                <div class="tg-cube tg-cube2"></div>
+                <div class="tg-cube tg-cube3"></div>
+                <div class="tg-cube tg-cube4"></div>
+                <div class="tg-cube tg-cube5"></div>
+                <div class="tg-cube tg-cube6"></div>
+                <div class="tg-cube tg-cube7"></div>
+                <div class="tg-cube tg-cube8"></div>
+                <div class="tg-cube tg-cube9"></div>
+            </div>
+        </div>
+
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-angle-up"></i>
+        </button>
+
+        <header id="home">
+            <div id="sticky-header" class="menu-area transparent-header">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="flaticon-layout"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="assets/img/logo/logo-hell.png" alt="Logo" class="main-logo">
+                                            <img src="assets/img/logo/logo.png" alt="Logo" class="secondary-logo">
+                                        </a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-xl-flex">
+                                        <ul class="navigation">
+                                            <li><a href="index.html#home">Главная</a></li>
+                                            <li><a href="index.html#features">О Нас</a></li>
+                                            <li><a href="#paroller" class="section-link">Топ продаж</a></li>
+                                            <li><a href="#ingredient" class="section-link">Протеин</a></li>
+                                            <li><a href="#pricing" class="section-link">Акция</a></li>
+                                            <li class="menu-item-has-children"><a href="shop.html">Каталог</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="shop.html">Весь ассортимент</a></li>
+                                                    <li><a href="shop-details.html">О продукте</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                            <li class="active"><a href="contact.html">Контакты</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-action d-none d-sm-block">
+                                        <ul>
+                                            <li class="header-shop-cart">
+                                                <a href="#" class="cart-count"><i class="flaticon-shopping-cart"></i>
+                                                    <span class="mini-cart-count">0</span>
+                                                </a>
+                                                <div class="header-mini-cart">
+                                                    <ul class="woocommerce-mini-cart cart_list product_list_widget list-wrap">
+                                                        <!-- Здесь будут добавлены товары при помощи JavaScript -->
+                                                    </ul>
+                                                    <p class="checkout-link">
+                                                        <a href="shop-details.html" class="button wc-forward">Показать корзину</a>
+                                                        <a href="#" class="button checkout wc-forward">К оплате</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li class="header-search"><a href="#"><i class="flaticon-search"></i></a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="mobile-menu">
+                                <nav class="menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="menu-outer">
+                                    </div>
+                                    <div class="social-links">
+                                        <ul class="clearfix">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-popup-wrap" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="search-wrap text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="search-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your keyword...">
+                                        <button class="search-btn"><i class="flaticon-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-backdrop"></div>
+
+            <div class="offCanvas-wrap">
+                <div class="offCanvas-toggle"><img src="assets/img/icons/close.png" alt="icon"></div>
+                <div class="offCanvas-body">
+                    <div class="offCanvas-content">
+                        <h3 class="title">Getting all of the <span>Nutrients</span> you need simply cannot be done without supplements.</h3>
+                        <p>Nam libero tempore, cum soluta nobis eligendi cumque quod placeat facere possimus assumenda omnis dolor repellendu sautem temporibus officiis</p>
+                    </div>
+                    <div class="offcanvas-contact">
+                        <h4 class="number">+1 599 162 4545</h4>
+                        <h4 class="email">suxnix@gmail.com</h4>
+                        <p>5689 Lotaso Terrace, Culver City, <br> CA, United States</p>
+                        <ul class="offcanvas-social list-wrap">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="offCanvas-overlay"></div>
+
+        </header>
+
+
+        <main class="main-area fix">
+
+            <section class="breadcrumb-area breadcrumb-bg">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10">
+                            <div class="breadcrumb-content text-center">
+                                <h2 class="title">Каталог</h2>
+                                <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
+                                    <ul class="breadcrumb">
+                                        <li class="breadcrumb-item trail-item trail-begin">
+                                            <a href="index.html"><span>Главная</span></a>
+                                        </li>
+                                        <li class="breadcrumb-item trail-item trail-end"><span>Каталог</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="inner-shop-area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-8 col-sm-8">
+                            <aside class="shop-sidebar">
+                                <div class="widget">
+                                    <h4 class="sidebar-title">Часто продаваемые</h4>
+                                    <div class="lp-post-list">
+                                        <ul class="lp-post-item list-wrap">
+                                            <li>
+                                                <div class="lp-post-thumb">
+                                                    <a href="shop-details.html"><img src="assets/img/products/IronFlex-BCAA-Ultimate-Instant_pixian_ai 1.png" alt="img"></a>
+                                                </div>
+                                                <div class="lp-post-content">
+                                                    <h4 class="title"><a href="shop-details2.html">IRONFLEX BCAA ULTIMATE INSTANT 400G (МАНГО)</a></h4>
+                                                    <span class="price">1 553 ₽</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="lp-post-thumb">
+                                                    <a href="shop-details8.html"><img src="assets/img/products/BCA BIOPHARM_pixian_ai.png" alt="img"></a>
+                                                </div>
+                                                <div class="lp-post-content">
+                                                   
+                                                    <h4 class="title"><a href="shop-details8.html">BCAA ENERGY</a></h4>
+                                                    <span class="price">2 200 ₽</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="lp-post-thumb">
+                                                    <a href="shop-details4.html"><img src="assets/img/products/Olimp-BCAA-Xplode-Energy-500-g_pixian_ai.png" alt="img"></a>
+                                                </div>
+                                                <div class="lp-post-content">
+                                                    
+                                                    <h4 class="title"><a href="shop-details4.html">XPLODE ENERGY</a></h4>
+                                                    <span class="price">2 937 ₽</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-8 shop-sidebar-pad order-first">
+                            <div class="shop-top-wrap">
+                            </div>
+                            <div class="suxnix-shop-product-main">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details17.html">
+                                                    <img src="assets/img/products/miccelar.png" alt="img">
+                                                    <span class="discount"> -15%</span>
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein </a></div>
+                                                <h4 class="title"><a href="shop-details17.html">Syntrax Micellar Creme</a></h4>
+                                                <span class="home-shop-price"> 3 500 ₽</span>
+                                             
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details18.html">
+                                                    <img src="assets/img/products/Optimum Nutrition choko_pixian_ai.png"alt="img">
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein</a></div>
+                                                <h4 class="title"><a href="shop-details18.html">Optimum Nutrition, Gold Standard 100% Шоколад</a></h4>
+                                                <span class="home-shop-price">4 800 ₽</span>
+                                               
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details19.html">
+                                                    <img src="assets/img/products/Optimum Nutrition strawbery_pixian_ai.png" alt="img">
+                                                    <span class="discount"> -15%</span>
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein</a></div>
+                                                <h4 class="title"><a href="shop-details19.html">Optimum Nutrition, Gold Standard 100% Клубника</a></h4>
+                                                <span class="home-shop-price">9 500 ₽</span>
+                                               
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details20.html">
+                                                    <img src="assets/img/products/iso.png" alt="img">
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein</a></div>
+                                                <h4 class="title"><a href="shop-details20.html">ISO WHEY PREMIUM</a></h4>
+                                                <span class="home-shop-price">4 200 ₽</span>
+                                               
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details21.html">
+                                                    <img src="assets/img/products/Golden7_protein_blend_2lb_cookiescream_site1_pixian_ai.png" alt="img">
+                                                    <span class="discount"> -45%</span>
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein</a></div>
+                                                <h4 class="title"><a href="shop-details21.html">MAXLER - GOLDEN 7 PROTEIN BLEND</a></h4>
+                                                <span class="home-shop-price">6 200 ₽</span>
+                                             
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6">
+                                        <div class="home-shop-item inner-shop-item">
+                                            <div class="home-shop-thumb">
+                                                <a href="shop-details22.html">
+                                                    <img src="assets/img/products/Ultra_Whey_banana_1500g_can_site1_pixian_ai.png" alt="img">
+                                                    <span class="discount"> -45%</span>
+                                                </a>
+                                            </div>
+                                            <div class="home-shop-content">
+                                                <div class="shop-item-cat"><a href="#">Whey Protein</a></div>
+                                                <h4 class="title"><a href="shop-details22.html">MAXLER - ULTRA WHEY</a></h4>
+                                                <span class="home-shop-price">5 689 ₽</span>
+                                               
+                                                <div class="shop-content-bottom">
+                                                    <a href="#" class="btn btn-two">Купить сейчас</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                <div class="pagination-wrap">
+                                    <ul class="list-wrap">
+                                        <li><a href="shop.html">1</a></li>
+                                        <li><a href="shop1.html">2</a></li>
+                                        <li><a href="shop2.html">3</a></li>
+                                        <li><a href="shop3.html"class="current">4</a></li>
+                                        <li><a href="shop4.html">5</a></li>
+                                        <li><a href="shop5.html">6</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer-area">
+            <div class="footer-top-wrap">
+                <div class="container">
+                    <div class="footer-widgets-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-7">
+                                <div class="footer-widget">
+                                    <div class="footer-about">
+                                        <div class="footer-logo logo">
+                                            <a href="index.html"><img src="assets/img/logo/logo-hell.png" alt="logo"></a>
+                                        </div>
+                                        <div class="footer-text">
+                                            <p>BB Shop в Астрахани предлагает спортивное питание и косметику для тела. Мы работаем без перерывов и выходных.</p>
+                                        </div>
+                                        <div class="footer-social">
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-5">
+                                <div class="footer-widget">
+                                    <h4 class="fw-title">Контакты</h4>
+                                    <div class="footer-contact-wrap">
+                                        <p>Улица Татищева, 61</p>
+                                        <ul class="list-wrap">
+                                            <li class="phone"><i class="fas fa-phone"></i> +7 (937) 132-14-88</li>
+                                            <li class="mail"><i class="fas fa-envelope"></i> https://vk.com/bbshop30 </li>
+                                            <li class="website"><i class="fas fa-globe"></i> https://vk.com/bbshop30</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            <div class="copyright-wrap">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <div class="copyright-text">
+                                <p> BB SHOP All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="payment-card text-center text-md-end">
+                                <img src="assets/img/others/card_img.png" alt="card">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.paroller.min.js"></script>
+        <script src="assets/js/jquery.easypiechart.min.js"></script>
+        <script src="assets/js/jquery.inview.min.js"></script>
+        <script src="assets/js/jquery.easing.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/jarallax.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/validator.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+           document.addEventListener('DOMContentLoaded', function() {
+    var removeButtons = document.querySelectorAll('.remove_from_cart_button');
+    var totalElement = document.querySelector('.woocommerce-mini-cart__total .woocommerce-Price-amount');
+    var initialTotal = parseFloat(totalElement.textContent.replace('$', '').replace(',', ''));
+    var cartCounter = document.querySelector('.cart-count .mini-cart-count');
+
+    var quantities = {}; // объект для хранения количества каждого товара в корзине
+
+    // Заполняем объект количествами товаров при загрузке страницы
+    var savedCart = localStorage.getItem('cart');
+    if (savedCart) {
+        var cartItems = document.createElement('div');
+        cartItems.innerHTML = savedCart;
+        cartItems.querySelectorAll('.woocommerce-mini-cart-item').forEach(function(item) {
+            var quantityElement = item.querySelector('.mini-cart-content .mini-cart-price');
+            var quantity = parseInt(quantityElement.textContent.split('×')[0].trim());
+            var productId = item.dataset.productId; // предполагается, что у вас есть уникальный идентификатор для каждого товара
+
+            quantities[productId] = quantity;
+        });
+        updateCartCounter();
+        updateTotal();
+    }
+
+    var initialQuantity = Object.values(quantities).reduce((total, quantity) => total + quantity, 0);
+
+    if (isNaN(initialTotal)) {
+        initialTotal = 0;
+    }
+
+    removeButtons.forEach(function(button) {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            var cartItem = button.closest('.woocommerce-mini-cart-item');
+            var priceElement = cartItem.querySelector('.mini-cart-content .mini-cart-price');
+            var price = parseFloat(priceElement.textContent.split('$')[1]);
+            var productId = cartItem.dataset.productId;
+
+            if (quantities[productId] <= 0) {
+                return; // не удаляем товар, если его количество уже равно 0
+            }
+
+            // уменьшаем количество товара в объекте количеств и визуально
+            quantities[productId]--;
+            updateTotal(-price);
+
+            // Удаляем только текущий элемент
+            cartItem.remove();
+
+            // Пересчитываем суммарное количество товаров в корзине и обновляем счетчик
+            updateCartCounter();
+            
+            // Сохраняем состояние корзины в localStorage
+            saveCartToLocalStorage();
+        });
+    });
+
+    function updateTotal(amount) {
+        var currentTotal = initialTotal + amount || initialTotal;
+        var cartItems = document.querySelectorAll('.woocommerce-mini-cart-item');
+
+        cartItems.forEach(function(item) {
+            var quantityElement = item.querySelector('.mini-cart-content .mini-cart-price');
+            var quantity = parseInt(quantityElement.textContent.split('×')[0].trim());
+            var price = parseFloat(quantityElement.textContent.split('$')[1]);
+            var productId = item.dataset.productId; // предполагается, что у вас есть уникальный идентификатор для каждого товара
+
+            currentTotal += price * quantity;
+        });
+
+        if (currentTotal >= 0) {
+            totalElement.textContent = '₽' + currentTotal.toFixed(2);
+        } else {
+            totalElement.textContent = '₽0.00';
+        }
+    }
+
+    function updateCartCounter() {
+        var currentQuantity = Object.values(quantities).reduce((total, quantity) => total + quantity, 0);
+        cartCounter.textContent = currentQuantity;
+    }
+
+    function saveCartToLocalStorage() {
+        localStorage.setItem('cart', document.querySelector('.header-mini-cart .woocommerce-mini-cart').innerHTML);
+    }
+});
+          </script>
+          
+          <script>
+              var buyNowButtons = document.querySelectorAll('.home-shop-content .btn.btn-two');
+  var cartCount = document.querySelector('.header-shop-cart .mini-cart-count');
+  var miniCart = document.querySelector('.header-mini-cart .woocommerce-mini-cart');
+  
+  // Проверяем, есть ли сохраненные товары в localStorage при загрузке страницы
+  document.addEventListener('DOMContentLoaded', function() {
+      var savedCart = localStorage.getItem('cart');
+      if (savedCart) {
+          miniCart.innerHTML = savedCart;
+          updateCartCounter();
+      }
+  });
+  
+  buyNowButtons.forEach(function(button) {
+      button.addEventListener('click', function(event) {
+          event.preventDefault();
+  
+          var product = this.closest('.home-shop-item');
+          var productName = product.querySelector('.title a').textContent;
+          var productPrice = product.querySelector('.home-shop-price').textContent;
+          var productImgSrc = product.querySelector('.home-shop-thumb img').getAttribute('src');
+  
+          var cartItem = document.createElement('li');
+          cartItem.classList.add('woocommerce-mini-cart-item', 'd-flex', 'align-items-center');
+          cartItem.innerHTML = `
+              <a href="#" class="remove remove_from_cart_button">×</a>
+              <div class="mini-cart-img">
+                  <img src="${productImgSrc}" alt="${productName}">
+              </div>
+              <div class="mini-cart-content">
+                  <h4 class="product-title"><a href="shop-details.html">${productName}</a></h4>
+                  <div class="mini-cart-price">${productPrice}</div>
+              </div>
+          `;
+  
+          miniCart.appendChild(cartItem);
+          updateCartCounter();
+          saveCartToLocalStorage();
+          
+          var removeButtons = document.querySelectorAll('.header-mini-cart .remove_from_cart_button');
+          removeButtons.forEach(function(removeButton) {
+              removeButton.addEventListener('click', function(event) {
+                  event.preventDefault();
+                  var cartItem = this.closest('.woocommerce-mini-cart-item');
+                  cartItem.remove();
+                  updateCartCounter();
+                  saveCartToLocalStorage();
+              });
+          });
+      });
+  });
+  
+  function updateCartCounter() {
+      var currentQuantity = miniCart.children.length;
+      cartCount.textContent = currentQuantity;
+  }
+  
+  function saveCartToLocalStorage() {
+      localStorage.setItem('cart', miniCart.innerHTML);
+  }
+          </script>
+          <script>
+              removeButtons.forEach(function(button) {
+      button.addEventListener('click', function(event) {
+          event.preventDefault();
+          var cartItem = button.closest('.woocommerce-mini-cart-item');
+          
+          // Проверяем, был ли уже удален элемент
+          if (!cartItem) {
+              return;
+          }
+          
+          var priceElement = cartItem.querySelector('.mini-cart-content .mini-cart-price');
+          var price = parseFloat(priceElement.textContent.split('₽')[1]);
+          var productId = cartItem.dataset.productId;
+  
+          if (quantities[productId] <= 0) {
+              return; // не удаляем товар, если его количество уже равно 0
+          }
+  
+          // уменьшаем количество товара в объекте количеств и визуально
+          quantities[productId]--;
+          updateTotal(-price);
+          updateCartCounter();
+          
+          // Удаляем элемент
+          cartItem.remove();
+      });
+  });
+          </script>
+
+    </body>
+</html>
